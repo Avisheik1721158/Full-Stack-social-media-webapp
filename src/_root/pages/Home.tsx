@@ -18,8 +18,8 @@ const Home = () => {
     isError: isErrorPosts,
   } = useGetRecentPosts();
   const {
-    data: creators,
-    isLoading: isUserLoading,
+    // data: creators,
+    // isLoading: isUserLoading,
     isError: isErrorCreators,
   } = useGetUsers(10);
 
